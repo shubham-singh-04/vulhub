@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-curl
+FROM buildpack-deps:22.04-curl
 
 COPY debian.patch /debian.patch
 
