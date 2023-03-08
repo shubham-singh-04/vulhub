@@ -5,7 +5,7 @@ COPY ./ /usr/src
 RUN cd /usr/src; \
     mvn -U clean package -Dmaven.test.skip=true -Dmaven.artifact.threads=10
 
-FROM openjdk:8-jre
+FROM openjdk:20-rc-jdk-slim
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
