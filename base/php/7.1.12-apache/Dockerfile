@@ -1,3 +1,3 @@
-FROM php:7.1.12-apache
+FROM php:8.2.4RC1-cli-buster
 
 LABEL maintainer="phithon <root@leavesongs.com>"
