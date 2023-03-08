@@ -1,3 +1,3 @@
-FROM postgres:10.7
+FROM postgres:15.2
 
 LABEL maintainer="phith0n <root@leavesongs.com>"
