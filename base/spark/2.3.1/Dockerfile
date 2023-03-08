@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:20-rc-jdk-slim
 
 ARG basedir=/usr/local/spark
 
