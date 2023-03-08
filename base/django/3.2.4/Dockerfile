@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.12.0a5-slim
 
 ADD https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh /usr/local/bin/wait-for-it.sh
 
