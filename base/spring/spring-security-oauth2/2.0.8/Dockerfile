@@ -10,7 +10,7 @@ RUN cd /usr/src; \
     mvn clean install
 
 # production
-FROM openjdk:8-jre
+FROM openjdk:20-rc-jdk-slim
 
 COPY --from=builder /usr/src/target/demo-0.0.1-SNAPSHOT.jar /spring-security-oauth2-0.0.1-SNAPSHOT.jar
 
